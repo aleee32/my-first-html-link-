@@ -1,0 +1,61 @@
+body {
+    background-image: url('https://media.architecturaldigest.com/photos/5ce44f9b04c41eb4699a88cc/16:9/w_2560%2Cc_limit/02_ZHA_Al%2520Wakrah%2520Stadium_Qatar_%25C2%25A9Hufton+Crow.jpg');
+    background-repeat: no-repeat;
+    background-position: center  ;
+    background-size: cover;
+display: grid;
+place-items: center;
+
+}
+h1{
+    color : brown;
+    font-style: italic;
+   font-weight: bold;
+   font-size: 50px;
+     
+}
+h1 {
+    text-align: center;
+}
+
+img{
+    height: 100%;
+    width: 475%;
+}
+      
+
+.pip{
+    /* margin-top: 1%;
+    text-align: top right; */
+    display: grid;
+   
+    text-transform: uppercase;
+    width: 100%;
+    height: 100%;
+color:rgb(19, 18, 18)
+
+}
+.aaaa{
+    width: 100px;
+    display: grid;
+}
+#container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    place-items: center;
+    width: 100%;
+
+}
+
+.video-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 7px;
+    place-items: center;
+    width: 100%;
+}
+.card{
+    display:grid;
+    place-items: center;
+}
